@@ -1,7 +1,7 @@
 # base-cmake-project
 Ideal starting point for project.
 
-## Instruction for linux
+## Instruction for windows
 In root directory type commands:
 ### Compilation for debug mode:
 
@@ -11,14 +11,14 @@ In root directory type commands:
 
 `cmake -S . -B build_release -DCMAKE_BUILD_TYPE=Release`
 
-#### Then cd to chosen build directory and:
+#### Then build with chosen directory:
 
-`make install`
+`mingw32-make -C build_debug`
 
 #### To run project:
 
-`./bin/Simplestproject`
+`Simplestproject.exe`
 
 ### Or you can use prepared script to automatize this process:
 
-`./scripts/build.sh`
+`build.bat`
